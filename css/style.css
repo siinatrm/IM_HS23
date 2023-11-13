@@ -47,7 +47,20 @@ button {
     border-radius: 5px;
   }
 
+button:hover {
+    background-color:#992c05;
+    color: white;
+  }  
+
 a {
     display: inline;
     margin-right: 100px;
+}
+
+.logo {
+    position: fixed;
+    right: 50px;
+    top: 10px;
+    height: 80px;
+    width: 110px;
 }
