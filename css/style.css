@@ -30,6 +30,7 @@ body {
     background-color: #992c05;
  }
 
+
 ul {
     position: fixed;
     top: 10px;
@@ -90,6 +91,21 @@ h1, p {
 iframe {
     position: fixed;
     margin-left: 480px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
 }
 
 footer {
