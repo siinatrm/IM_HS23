@@ -26,10 +26,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 35px 10px 20px;
+    padding: 100px 35px 10px 20px;
     background-color: #992c05;
  }
 
+ ul {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    list-style-type: none;
+    marigin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: right;
+  }
 
 button {
     border: none;
@@ -66,4 +78,9 @@ a {
 
 main {
     margin-left: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
 }
