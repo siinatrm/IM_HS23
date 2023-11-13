@@ -81,8 +81,13 @@ main {
     margin-top: 50px;
 }
 
-h1 {
+h1, p {
     text-align: center;
+}
+
+iframe {
+    position: fixed;
+    margin-left: 480px;
 }
 
 footer {
