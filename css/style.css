@@ -30,16 +30,15 @@ body {
     background-color: #992c05;
  }
 
- ul {
+ul {
     position: fixed;
     top: 10px;
     width: 100%;
     list-style-type: none;
-    marigin: 0;
     padding: 0;
   }
   
-  li {
+li {
     float: right;
   }
 
