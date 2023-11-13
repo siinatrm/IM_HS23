@@ -51,10 +51,22 @@
         </form>
 
         <script>
+            function isValidEmail(email) {
+            // Einfache E-Mail-Validierung mit regulärem Ausdruck
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+
             function submitForm() {
                 var name = document.getElementById("name").value;
                 var email = document.getElementById("email").value;
                 var message = document.getElementById("message").value;
+            
+             // E-Mail-Validierung
+             if (!isValidEmail(email)) {
+                alert("Bitte geben Sie eine gültige E-Mail-Adresse ein.");
+                return;
+            }    
     
                 // Hier können Sie weitere Validierungen und Verarbeitungen hinzufügen
                 // Zum Beispiel: Überprüfen Sie die Gültigkeit der E-Mail-Adresse
