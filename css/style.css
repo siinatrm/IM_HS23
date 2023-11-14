@@ -23,9 +23,20 @@ body {
     line-height: 1.8;
     font-weight: normal;
     padding: 0;
+    padding-top: 100px;
     margin: 0;
     width: 100%;
  }
+
+ header {
+    background-color:#992c05;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Stellt sicher, dass der Header über anderen Elementen liegt */
+}
 
  @media only screen and (max-width: 768px) {
     body {
@@ -33,12 +44,14 @@ body {
     }
  }
 
+
  .container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 35px 10px 20px; 
+    padding: 80px 35px 10px 20px; 
     background-color: #992c05;
+    z-index: 1000;
  }
 
 
