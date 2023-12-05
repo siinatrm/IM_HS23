@@ -83,6 +83,28 @@ button:hover {
     color: aliceblue;
   }  
 
+#button-neue {
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(33, 35, 37);
+    color: aliceblue;
+  }
+
+#button-neue:hover {
+    background-color:aliceblue;
+    color: rgb(33, 35, 37);
+  }    
+
 a {
     display: inline;
     margin-right: 20px;
@@ -163,7 +185,7 @@ h1, p {
   .text {
     color: aliceblue;
     font-size: 20px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -184,7 +206,6 @@ h1, p {
 
 .main-content {
     max-width: 800px;
-    margin-right: 20px;
 }
 
 .main-container img {
@@ -206,7 +227,7 @@ iframe {
     position: fixed;
     border-radius: 15px;
     max-width: 800px;
-    margin-left: 450px;
+    margin-left: 470px;
 }
 
 form {
