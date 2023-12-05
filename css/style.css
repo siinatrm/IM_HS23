@@ -1,4 +1,4 @@
-/* * { 
+* { 
     box-sizing: border-box !important;
 }
 
@@ -35,12 +35,12 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000; /* Stellt sicher, dass der Header über anderen Elementen liegt
-}*/
+    z-index: 1000; /* Stellt sicher, dass der Header über anderen Elementen liegt*/
+}
 
 
 
- /* .container-header {
+.container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,11 +197,11 @@ footer {
     margin-left: 7px;
     margin-bottom: 2px;
     background-color:white;
-}*/
+}
 
 
 /*responsive*/
-/* @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
 
     .container-header {
         padding: 20px;
@@ -236,4 +236,4 @@ footer {
     footer {
         margin-left: 0;
     }
-} */
+}
