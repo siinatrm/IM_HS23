@@ -264,6 +264,7 @@ footer {
     cursor: pointer;
     font-size: 24px;
     color: white;
+    margin-left: 50px;
 }
 
 
@@ -280,7 +281,7 @@ footer {
         position: absolute;
         background-color: rgb(33, 35, 37);
         width: 100%;
-        top: 70px; /* Passe den Abstand zum Header nach Bedarf an */
+        top: 70px; 
         left: 0;
         z-index: 1000;
     }
@@ -299,7 +300,7 @@ footer {
     ul.show {
         display: flex; /* Die Hauptnavigation wird sichtbar, wenn die Klasse show angewendet wird */
     }
-    
+
     .container-header {
         padding: 20px;
     }
