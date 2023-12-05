@@ -117,6 +117,7 @@ a {
     height: 80px;
     width: 110px;
     border-radius: 10px;
+    z-index: 1001;
 }
 
 main {
@@ -128,6 +129,7 @@ main {
 h1, p {
     text-align: center;
 }
+
 
 .image-container {
     background-color: rgb(33, 35, 37);
@@ -214,6 +216,7 @@ h1, p {
 
 .main-content {
     max-width: 800px;
+    margin-top: 250px;
 }
 
 
@@ -259,12 +262,20 @@ footer {
     z-index: 10004;
 }
 
+.logo-container {
+    position: fixed;
+    left: 50px;
+    top: 15px;
+    z-index: 1001; /* Stelle sicher, dass das Logo über dem Burger-Menü liegt */
+}
+
+
 .burger-menu {
     display: none; /* Das Burger-Menü ist standardmäßig ausgeblendet */
     cursor: pointer;
     font-size: 24px;
     color: white;
-    margin-left: 50px;
+    margin-left: 330px;
 }
 
 
@@ -274,6 +285,32 @@ footer {
     .burger-menu {
         display: block; /* Das Burger-Menü wird sichtbar */
     }
+
+    .main-nav {
+        display: none; /* Die Hauptnavigation wird standardmäßig ausgeblendet */
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(33, 35, 37);
+        width: 100%;
+        top: 70px; 
+        z-index: 1000;
+    }
+
+    .main-nav li {
+        text-align: center;
+        margin: 0;
+    }
+
+    .main-nav li a {
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    .main-nav.show {
+        display: flex; /* Die Hauptnavigation wird sichtbar, wenn die Klasse show angewendet wird */
+    }
+
 
     ul {
         display: none; /* Die Hauptnavigation wird standardmäßig ausgeblendet */
@@ -329,9 +366,44 @@ footer {
     .main-content {
         max-width: 100%;
         margin-right: 0;
+        margin-top: 900px;
+    }
+
+    .image-container {
+        max-width: 100%;
+        background-color: rgb(33, 35, 37);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image-container a {
+        overflow: hidden;
+        justify-content: space-evenly;
+        margin: 7px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    iframe {
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-bottom: 100px;
     }
 
     footer {
-        margin-left: 0;
+        margin-left: 7px;
     }
 }
