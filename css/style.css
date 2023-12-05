@@ -259,10 +259,47 @@ footer {
     z-index: 10004;
 }
 
+.burger-menu {
+    display: none; /* Das Burger-Menü ist standardmäßig ausgeblendet */
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
 
 /*responsive*/
  @media only screen and (max-width: 600px) {
+    
+    .burger-menu {
+        display: block; /* Das Burger-Menü wird sichtbar */
+    }
 
+    ul {
+        display: none; /* Die Hauptnavigation wird standardmäßig ausgeblendet */
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(33, 35, 37);
+        width: 100%;
+        top: 70px; /* Passe den Abstand zum Header nach Bedarf an */
+        left: 0;
+        z-index: 1000;
+    }
+
+    ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    ul li a {
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    ul.show {
+        display: flex; /* Die Hauptnavigation wird sichtbar, wenn die Klasse show angewendet wird */
+    }
+    
     .container-header {
         padding: 20px;
     }
