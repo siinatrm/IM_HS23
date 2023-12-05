@@ -98,8 +98,8 @@ a {
 }
 
 main {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 50px;
 }
 
@@ -111,9 +111,8 @@ h1, p {
     background-color: rgb(33, 35, 37);
     display: flex;
     flex-wrap: wrap;
-    width: 110%;
+    width: 100%;
     align-items: center;
-    margin-left: -10px;
 }
 
 .image-container a {
@@ -135,15 +134,12 @@ h1, p {
 
 
 /*.image-container p {
+    color: rgb(33, 35, 37);
+    font-size: 20px;
     position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    background: rgb(33, 35, 37);
-    color: aliceblue;
-    margin: 0;
-    padding: 10px;
-    border-radius: 0 0 8px 8px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
 }*/
 
 .overlay {
@@ -159,12 +155,13 @@ h1, p {
     background-color: rgb(33, 35, 37);
   }
   
-  .image-container:hover .overlay {
-    opacity: 1;
+  .image-container a:hover .overlay {
+    opacity: 0.7;
   }
+
   
   .text {
-    color: white;
+    color: aliceblue;
     font-size: 20px;
     position: absolute;
     top: 50%;
