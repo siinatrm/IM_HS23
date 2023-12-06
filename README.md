@@ -5,7 +5,7 @@ Berichterstattung über Naturkatastrophen im Fernsehen (sensationsorientiert, in
 Rettungs- und Hilfsmaßnahmen?". Die Webseite enthält Infos über die Thesis und das Projekt, ein Platzhalter für die Video-Reportage, Infos zu REDOG und der Rettungshundeausbildung und ein Kontaktformular.
 
 Webseiten-Struktur
-Die Webseite hat für die jeweiligen Bereiche eine Seite. Über ein Bar-Menü erreicht man alle Seiten. Angepasst auf verschiedene Bildschirmgrössen, wird die Navigation z.B. auf dem Smartphone über ein Burger-Menü erreicht.
+Die Webseite hat für die jeweiligen Bereiche eine Seite. Über ein Bar-Menü erreicht man alle Seiten. Angepasst auf verschiedene Bildschirmgrössen, wird die Navigation z.B. auf dem Smartphone über ein Burger-Menü erreicht. Über Klick auf das Logo wird die Startseite erreicht.
 
 Kontaktformular
 Über das Kontaktformular kann mit mir direkt in Kontakt getreten werden. Die Anfrage wird auf meine Studenten-Mail geleitet.
@@ -17,12 +17,17 @@ JavaScript
 PHP
 
 Quellen
-https://dup-magazin.de/management/strategie/kommunikation-ki-assistent-deepl-sprache-schafft-wachstum/
-UNESCO. (2023). Digital Empowerment Driving the International Decade of Indigenous Languages. Abgerufen am 27. Oktober 2023, von https://www.unesco.org/en/articles/digital-empowerment-driving-international-decade-indigenous-languages
+https://www.redog.ch/
+https://www.miljobs.ch/functions/hundefuehrer
+https://www.youtube.com/watch?v=A6ryR0n1Wds&ab_channel=REDOG
 Privates Archiv
+ChatGPT
+w3schools
+Andri Trottmann (Bruder), siehe GitHub Verlauf
+
+Herausforderungen
+
 
 Was noch fehlt
-Downloadbutton hat noch nichts verlinkt
-Zoom beim Magazin geht nicht
-Das Kontaktformular wird nicht weitergeleitet
-... Für diese Funktionen hatte ich neben Major und Co. leider keine Zeit mehr, aber es kann sein, dass ich die Webseite tatsächlich für die BA verwenden werde und sie deshalb nachträglich noch verbessere.
+Das Video ist nur ein Platzhalter
+Grafisch würde es definitiv noch mehr benötigen, die Webseite ist kein Gaumenschmaus. Ich bin jedoch eine grafische Niete mit null Auge für Design, zu mehr war ich nicht fähig.
