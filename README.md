@@ -1,4 +1,4 @@
-# bachelorarbeit
+# Bachelorarbeit
 Bachelorarbeit Webseite
 Dieses Repository enthält den Code für die Webseite meiner Bachelorarbeit über das Thema "Wie beeinflusst die Art der 
 Berichterstattung über Naturkatastrophen im Fernsehen (sensationsorientiert, informativ, emotional) die wahrgenommene Wirksamkeit von 
