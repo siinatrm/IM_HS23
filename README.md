@@ -27,4 +27,5 @@ Andri Trottmann (Bruder), siehe GitHub Verlauf
 
 <h3>Was noch fehlt</h3>
 Das Video ist nur ein Platzhalter<br>
-Grafisch würde es definitiv noch mehr benötigen, die Webseite ist kein Gaumenschmaus. Ich bin jedoch eine grafische Niete mit null Auge für Design, zu mehr war ich nicht fähig.
+Grafisch würde es definitiv noch mehr benötigen, die Webseite ist kein Gaumenschmaus. Ich bin jedoch eine grafische Niete mit null Auge für Design, zu mehr war ich nicht fähig.<br>
+Eine direkte Anzeige der aktuellen Erdbeben auf meiner Webseite, da rumzupröbeln hatte ich jedoch keine Zeit mehr.
