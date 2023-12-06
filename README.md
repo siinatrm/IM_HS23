@@ -13,7 +13,7 @@ Die Webseite hat für die jeweiligen Bereiche eine Seite. Über ein Bar-Menü er
 <h3>Verwendete Sprachen</h3>
 HTML<br>
 CSS<br>
-JavaScript<br>
+inline JavaScript<br>
 PHP
 
 <h3>Quellen</h3>
