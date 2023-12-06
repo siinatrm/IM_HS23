@@ -1,10 +1,10 @@
 # Bachelorarbeit
-Bachelorarbeit Webseite
+
 Dieses Repository enthält den Code für die Webseite meiner Bachelorarbeit über das Thema "Wie beeinflusst die Art der 
 Berichterstattung über Naturkatastrophen im Fernsehen (sensationsorientiert, informativ, emotional) die wahrgenommene Wirksamkeit von 
 Rettungs- und Hilfsmaßnahmen?". Die Webseite enthält Infos über die Thesis und das Projekt, ein Platzhalter für die Video-Reportage, Infos zu REDOG und der Rettungshundeausbildung und ein Kontaktformular.
 
-Webseiten-Struktur
+<h1>Webseiten-Struktur</h1>
 Die Webseite hat für die jeweiligen Bereiche eine Seite. Über ein Bar-Menü erreicht man alle Seiten. Angepasst auf verschiedene Bildschirmgrössen, wird die Navigation z.B. auf dem Smartphone über ein Burger-Menü erreicht. Über Klick auf das Logo wird die Startseite erreicht.
 
 Kontaktformular
